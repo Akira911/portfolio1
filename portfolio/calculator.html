@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>fit abacus</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+
+</head>
+
+<body background="images/health.jpg" class="fitness">
+  <header>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About </a>
+      <a href="calculator.html"> Calculator</a>
+    <a href="hobby.html">Sining</a>
+      <a href="gallery.html">Human touch</a>
+    </div>
+
+
+  </header>
+
+  <section>
+<hr>
+
+<hr>
+<div id="container1">
+    <div id="col1">
+        <h2>HOW MUCH SHOULD I WEIGH?</h2>
+        <p class="bmi1">
+            Knowing your ideal body weight is a good first step to take before you start macro counting or flexible dieting. This helps you to have realistic expectations and to establish a healthy goal weight.
+
+            <ul id="list">
+                <li>Understanding your optimal weight can help you with the following aspects of dieting:</li>
+                <li>Allows you to set realistic weight loss goals. </li>
+                <li>Prevents the thinking that weight loss is necessary when it isn’t. </li>
+                <li>Gives you a baseline to use for building muscle. </li>
+                <li>Helps with maintaining a healthy weight for your height. </li>
+                <li>Shows you a goal to strive for if you are underweight. </li>
+            </ul>
+            <p></p>
+
+            <h1> CHECK YOUR IDEAL WEIGHT HERE &#8594; </h1>
+    </div>
+
+    <div id="col2">
+        <p class="label1">Gender: </p><select id="gender">
+            <option>Female</option>
+            <option>Male</option>
+        </select><br>
+        <p class="label1"> Age </p><input id="age" type="number" min="12" max="100" value="12"><br />
+        <p class="label1"> Height</p> <select id="metric">
+            <option>Feet-pound</option>
+            <option>Meter-KG</option>
+        </select><br />
+        <label id="valHeight" class="label1">Feet(s) </label> <input id="inHeight" type="text"> <br><label id="valHeight2" class="label1">Inch(es)</label> <input id="secondHeight" type="text"><br />
+        <label id="valWeight" class="label1">Pounds</label><input id="inWeight" type="text"><br>
+        <label class="label1">Goal weight</label><input id="dWeight" type="text"><br>
+        <label class="label1">Food</label><select id="food"></select><button id="add">Add</button><label class="label1">Total calories: </label><label id="totalCal">0</label><br>
+        <label class="label1">Exercise</label><select id="exercise"></select><label class="label1">Hour(s)</label><select id="number"></select><br>
+        <button id="submit2">Ideal weight</button><br />
+        <label id="resulta">Days</label>
+        <p id="goalDays"></p>
+    </div>
+</div>
+<!--
+
+
+        <label>Food</label><select id="food"></select><button id="add">Add</button><label>Total calories: </label><label id="totalCal" style="background-color: aqua">0</label><br>
+
+        <label>Exercise</label><select id="exercise"></select><label>Hour(s)</label><select id="number"></select><br>
+        <button id="submit2">Submit</button><br />
+        <label>Days</label>
+        <p></p>
+-->
+
+<!-- //////// -->
+
+
+    </div>
+  </section>
+
+
+  <script src="script/jquery-3.3.1.min.js"> </script>
+  <script src="script/main.js"></script>
+</body>
+
+</html>
